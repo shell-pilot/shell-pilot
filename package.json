@@ -1,0 +1,36 @@
+{
+  "name": "shellpilot",
+  "version": "1.0.0",
+  "description": "An AI terminal copilot that runs your command and tells you what to do next when it fails.",
+  "main": "dist/cli.js",
+  "bin": {
+    "shellpilot": "dist/cli.js",
+    "sc": "dist/cli.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/cli.ts",
+    "start": "node dist/cli.js",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "cli",
+    "developer-tools",
+    "debugging"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "dotenv": "^17.2.4",
+    "execa": "^9.6.1",
+    "openai": "^6.18.0",
+    "strip-ansi": "^7.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
