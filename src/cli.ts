@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import "dotenv/config";
-import axios from "axios";
+//import axios from "axios";
 import { execa } from "execa";
 import chalk from "chalk";
 import stripAnsi from "strip-ansi";
